@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk
+FROM eclipse-temurin:21-jdk
 MAINTAINER "Mr Sahil <4747>"
 COPY target/Rest-Project-01.jar  /usr/app/
 WORKDIR /usr/app/
